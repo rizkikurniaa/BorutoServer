@@ -21,6 +21,7 @@ dependencies {
     implementation(libs.koin.ktor)
     implementation(libs.ktor.server.default.headers)
     implementation(libs.koin.logger.slf4j)
+    implementation(libs.ktor.server.status.pages)
     testImplementation(libs.ktor.server.test.host)
     testImplementation(libs.kotlin.test.junit)
 }
